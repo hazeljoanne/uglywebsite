@@ -1,0 +1,22 @@
+body {
+    background-color: #654321;
+}
+
+#worm {
+    position: absolute;
+    animation-name: fly;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+}
+
+@keyframes fly {
+    from{
+        top: 0px;
+        left: 0px;
+    }
+
+    to {
+        top: 750px;
+        right: 0px;
+    }
+}
